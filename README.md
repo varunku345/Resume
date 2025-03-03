@@ -1,1 +1,84 @@
-# Resume
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width
+            
+            
+            
+            
+            : 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            background: #ff6f61;
+            color: white;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+        }
+        .profile img {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #ff6f61;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #ff6f61;
+            border-bottom: 2px solid #ff6f61;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Varun Kumar</h1>
+            <p>Web Developer </p>
+        </div>
+        <div class="profile">
+            <img src="IMG-20250302-WA0003.jpg">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am Varun Kumar, I completed Bachelor of computer application from Galgotia's University. A passionate web developer creating stunning websites using modern technologies.</p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email: varunkumar10909@gmail.com</p>
+            <p>Phone: +917870770341</p>
+        </div>
+        <div class="section">
+            <h2>Social Media</h2>
+            <p><strong>linkedin</strong>: https://www.linkedin.com/in/varun-kumar-9b76a3321 </p>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>
